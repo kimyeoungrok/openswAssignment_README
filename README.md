@@ -3,22 +3,24 @@
 되도록이면 가상환경을 만들어 거기에 clone하는 것을 추천한다.  
 <가상환경 구축방법>
 ![가상환경생성](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/20e937b6-f2d4-4a6d-9df1-5458c354219f)  
-cmd창을 연뒤에 가상환경을 생성하고 싶은 파일 위치로 이동해서 다음과 같은 명령어를 입력해준다.
-virtualenv opensw 
-(opensw는 가상환경이름이다. 필요하다만 다른 이름을 지정해서 사용해도 무관하다.)
-그런 뒤에 opensw\Scripts\activate 명령어를 입력해주어서 가상환경을 실행해준다.
+cmd창을 연뒤에 가상환경을 생성하고 싶은 파일 위치로 이동해서 다음과 같은 명령어를 입력해준다.  
+virtualenv opensw   
+(opensw는 가상환경이름이다. 필요하다만 다른 이름을 지정해서 사용해도 무관하다.)  
+그런 뒤에 opensw\Scripts\activate 명령어를 입력해주어서 가상환경을 실행해준다.  
 
 <개발환경 구축>
-위 레포지토리를 실행하려면 cuda, torch, torchvision등 여러 모듈들의 설치가 필요하다.
+위 레포지토리를 실행하려면 cuda, torch, torchvision등 여러 모듈들의 설치가 필요하다.  
 
 <cuda설치>
+![image](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/ff93a7e6-182e-4670-b55e-91c0e2853d70)  
 
 
 가상환경이 있는 위치에 다음 git명령어를 사용하여 clone해준다.  
 git clone https://github.com/chanubc/opensw23-KLKB  
-
+shift + ctrl + esc 버튼을 눌러 작업 관리자를 실행한 후 성능 탭에 접속  
 ![image01](https://github.com/chanubc/opensw23-KLKB/assets/106955456/43be217b-19f9-4025-ab66-776f5452950a)  
-
+GPU메뉴에 접근하여 내 pc가 어떤 그래픽 카드를 쓰고 있는지 확인  
+(필자는 NVIDIA GeForce GTX 1060을 쓰고 있음을 알 수 있다.)  
 CNN-Image-Colorization-Pytorch 폴더에 들어간다.  
 inference 폴더에 들어가 사용하고 싶은 이미지를 넣는다.  
 cmd창을 켜서 가상환경을 실행시킨 뒤에 inference_script.py 가 있는 위치로 이동한 뒤에 다음 명령어를 실행한다.
