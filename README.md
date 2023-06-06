@@ -19,7 +19,11 @@ GPU메뉴에 접근하여 내 pc가 어떤 그래픽 카드를 쓰고 있는지 
 ![image](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/c5530677-0496-4e66-8e5a-94799e1c0afd)  
 ![image](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/6fa65bcf-eff9-4342-83ee-63a14331db3f)  
 아까 작업관리자에서 확인했던 그래픽 카드 정보를 바탕으로 해당 product Series와 Product를 선택한 뒤에 Search를 누르고 Driver를 다운/설치를 한다.  
-
+  
+<적절한 CUDA버전 확인>  
+cmd창을 열어서  
+cd C:\Program Files\NVIDIA Corporation\NVSMI 명령어를 실행한 뒤에  
+nvidia-smi.exe 명령어 실행  
 
 가상환경이 있는 위치에 다음 git명령어를 사용하여 clone해준다.  
 git clone https://github.com/chanubc/opensw23-KLKB  
