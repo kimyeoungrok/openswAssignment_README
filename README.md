@@ -28,6 +28,12 @@ nvidia-smi.exe 명령어 실행
 그러면 다음과 같은 표를 얻을 수 있고 우측 상단에 CUDA Version을 확인할 수 있다.  
 (필자의 경우엔 10.2라고 나온다.)  
 위 버전을 잘 기억해 두자  
+  
+<CUDA toolkit설치>  
+  
+https://developer.nvidia.com/cuda-toolkit-archive  
+다음 사이트에 접속하여 표에서 얻은 CUDA Version과 같은 것을 다운 받는다,  
+
 
 가상환경이 있는 위치에 다음 git명령어를 사용하여 clone해준다.  
 git clone https://github.com/chanubc/opensw23-KLKB  
