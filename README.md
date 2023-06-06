@@ -1,6 +1,8 @@
 ## Installation
 오픈 소스 repo 설치 및 실행 방법  
 되도록이면 가상환경을 만들어 거기에 clone하는 것을 추천한다.  
+<가상환경 구축방법>
+
 가상환경이 있는 위치에 다음 git명령어를 사용하여 clone해준다.  
 git clone https://github.com/chanubc/opensw23-KLKB  
 
