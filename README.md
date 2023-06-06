@@ -40,7 +40,9 @@ https://developer.nvidia.com/cuda-toolkit-archive
 <라이브러리 설치>  
 https://pytorch.org/get-started/previous-versions/  
 위 사이트를 참고 하여 본인 CUDA버전과 맞는 pytorch, torchvision, torchaudio 라이브러리를 설치한다.  
-![image](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/b8095fb2-bf2c-4658-9527-b40f3ad82d1a)  
+![파이토치 설치](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/a7f5dcc0-2a4a-41a6-be74-dd162809b322)  
+
+
 
 
 
