@@ -49,22 +49,18 @@ False가 뜨면 쿠다 버전과 호환이 되는 다른 토치버전을 설치�
   
 다음은 Matplotlib이랑 scikit-image 그리고 CV2라이브러리를 다운/설치 한다.  
 Matplotlib설치 명령어  
-  
+![mat설치](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/4a102dbc-4252-474b-a4e0-0dcb336fd1b4)  
 pip install matplotlib  
   
 scikit-image설치 명령어  
-  
+![사이킷](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/84407eef-9d55-4399-aa02-889cbb943374)  
 pip install scikit-image  
   
 CV2설치 명령어  
-  
+![cv2](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/097fbe2c-9c5e-455f-8ba4-077b9f9729bb)  
 pip install opencv-python  
-
-
-
-
-
-
+  
+<clone및 실행방법>  
 가상환경이 있는 위치에 다음 git명령어를 사용하여 clone해준다.  
 git clone https://github.com/chanubc/opensw23-KLKB  
 ![image01](https://github.com/chanubc/opensw23-KLKB/assets/106955456/43be217b-19f9-4025-ab66-776f5452950a)  
