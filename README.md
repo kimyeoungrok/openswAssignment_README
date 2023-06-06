@@ -47,8 +47,6 @@ https://pytorch.org/get-started/previous-versions/
 가상환경이 있는 위치에 다음 git명령어를 사용하여 clone해준다.  
 git clone https://github.com/chanubc/opensw23-KLKB  
 ![image01](https://github.com/chanubc/opensw23-KLKB/assets/106955456/43be217b-19f9-4025-ab66-776f5452950a)  
-GPU메뉴에 접근하여 내 pc가 어떤 그래픽 카드를 쓰고 있는지 확인  
-(필자는 NVIDIA GeForce GTX 1060을 쓰고 있음을 알 수 있다.)  
 CNN-Image-Colorization-Pytorch 폴더에 들어간다.  
 inference 폴더에 들어가 사용하고 싶은 이미지를 넣는다.  
 cmd창을 켜서 가상환경을 실행시킨 뒤에 inference_script.py 가 있는 위치로 이동한 뒤에 다음 명령어를 실행한다.
