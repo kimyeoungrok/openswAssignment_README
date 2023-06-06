@@ -4,7 +4,8 @@
 <가상환경 구축방법>
 ![가상환경생성](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/20e937b6-f2d4-4a6d-9df1-5458c354219f)  
 cmd창을 연뒤에 가상환경을 생성하고 싶은 파일 위치로 이동해서 다음과 같은 명령어를 입력해준다.
-virtualenv opensw (opensw는 가상환경이름이다. 필요하다만 다른 이름을 지정해서 사용해도 무관하다.)
+virtualenv opensw 
+(opensw는 가상환경이름이다. 필요하다만 다른 이름을 지정해서 사용해도 무관하다.)
 그런 뒤에 opensw\Scripts\activate 명령어를 입력해주어서 가상환경을 실행해준다.
 
 가상환경이 있는 위치에 다음 git명령어를 사용하여 clone해준다.  
