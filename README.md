@@ -33,7 +33,9 @@ nvidia-smi.exe 명령어 실행
   
 https://developer.nvidia.com/cuda-toolkit-archive  
 다음 사이트에 접속하여 표에서 얻은 CUDA Version과 같은 것을 다운 받는다,  
+![image](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/1eead272-d0b6-483f-a85a-a9ff89aa8d9c)  
 
+이제 다시 cmd창을 활용하여 아까 생성했던 가상환경을 실행시켜 준다.
 
 가상환경이 있는 위치에 다음 git명령어를 사용하여 clone해준다.  
 git clone https://github.com/chanubc/opensw23-KLKB  
