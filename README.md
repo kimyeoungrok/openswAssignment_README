@@ -24,6 +24,10 @@ GPU메뉴에 접근하여 내 pc가 어떤 그래픽 카드를 쓰고 있는지 
 cmd창을 열어서  
 cd C:\Program Files\NVIDIA Corporation\NVSMI 명령어를 실행한 뒤에  
 nvidia-smi.exe 명령어 실행  
+![image](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/ed80560e-9095-4712-88d7-ba2652a16df9)  
+그러면 다음과 같은 표를 얻을 수 있고 우측 상단에 CUDA Version을 확인할 수 있다.  
+(필자의 경우엔 10.2라고 나온다.)  
+위 버전을 잘 기억해 두자  
 
 가상환경이 있는 위치에 다음 git명령어를 사용하여 clone해준다.  
 git clone https://github.com/chanubc/opensw23-KLKB  
