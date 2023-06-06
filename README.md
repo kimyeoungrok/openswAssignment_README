@@ -15,6 +15,10 @@ shift + ctrl + esc 버튼을 눌러 작업 관리자를 실행한 후 성능 탭
 ![image](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/ff93a7e6-182e-4670-b55e-91c0e2853d70)  
 GPU메뉴에 접근하여 내 pc가 어떤 그래픽 카드를 쓰고 있는지 확인  
 (필자는 NVIDIA GeForce GTX 1060을 쓰고 있음을 알 수 있다.)  
+<NVIDIA Driver 사이트 접속>  
+![image](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/c5530677-0496-4e66-8e5a-94799e1c0afd)  
+아까 작업관리자에서 확인했던 그래픽 카드 정보를 바탕으로 해당 product Series와 Product를 선택한 뒤에 Search를 누르고 Driver를 다운/설치를 한다.  
+
 
 가상환경이 있는 위치에 다음 git명령어를 사용하여 clone해준다.  
 git clone https://github.com/chanubc/opensw23-KLKB  
