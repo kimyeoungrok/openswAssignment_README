@@ -41,6 +41,13 @@ https://developer.nvidia.com/cuda-toolkit-archive
 https://pytorch.org/get-started/previous-versions/  
 위 사이트를 참고 하여 본인 CUDA버전과 맞는 pytorch, torchvision, torchaudio 라이브러리를 설치한다.  
 ![파이토치 설치](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/a7f5dcc0-2a4a-41a6-be74-dd162809b322)  
+  
+![토치cuda호환](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/1d4f1fc9-c022-49fb-a15a-d7695123cfe1)  
+위와 같이 명령어를 입력하여 설치한 토치와 cuda가 호환이 되는지 확인한다.  
+사진과 같이 True가 뜨면 정상적으로 실행된다는 뜻이다.  
+  
+다음은 Matplotlib이랑 scikit-image 그리고 CV2라이브러리를 다운/설치 한다.  
+
 
 
 
