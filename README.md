@@ -1,6 +1,6 @@
 ## Installation
 실행 조건 : pc에 NVIDIA기종의 그래픽카드가 설치되어있어야 한다.  
-오픈 소스 repo 설치 및 실행 방법  
+<오픈 소스 repo 설치 및 실행 방법>  
 되도록이면 가상환경을 만들어 거기에 clone하는 것을 추천한다.  
 <가상환경 구축방법>
 ![가상환경생성](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/20e937b6-f2d4-4a6d-9df1-5458c354219f)  
