@@ -48,6 +48,17 @@ https://pytorch.org/get-started/previous-versions/
 False가 뜨면 쿠다 버전과 호환이 되는 다른 토치버전을 설치하거나 cuda toolkit을 재설치하는걸 권장한다.  
   
 다음은 Matplotlib이랑 scikit-image 그리고 CV2라이브러리를 다운/설치 한다.  
+Matplotlib설치 명령어  
+  
+pip install matplotlib  
+  
+scikit-image설치 명령어  
+  
+pip install scikit-image  
+  
+CV2설치 명령어  
+  
+pip install opencv-python  
 
 
 
