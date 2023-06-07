@@ -123,7 +123,27 @@ inference폴더로 이동하면 변환된 이미지 inference_output.jpg를 볼 
 ![9](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/d080d55b-506c-4620-bb86-a2d3e5acf8a1)  
 ![10](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/27c55d78-c1c5-47d2-9757-593a6b7b127f)  
   
-이번에는 RGB거리가 긴 이미지 10개 즉 colorization이 다른 이미지에 비해 잘 안된 이미지들을 선정해보았습니다.
+이번에는 RGB거리가 긴 이미지 10개 즉 colorization이 다른 이미지에 비해 잘 안된 이미지들을 선정해보았습니다.  
+  
+![1](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/b5ae433c-9a2f-49b9-aacc-393318abad37)  
+![2](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/dbe5329b-bf73-4e60-ad10-ba8c759f012d)  
+![3](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/d2ab1a56-c432-4517-9e5a-d5ac83928758)  
+![4](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/00047b7b-ea67-44d0-bd53-f1216f04a486)  
+![5](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/aa780486-2bdc-4fb3-aec9-2df06cddcff4)  
+![6](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/036577d0-049e-4b1a-9c7d-b75932489cdb)  
+![7](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/30c522ae-3b4e-4f3b-bab4-89a64cd6a7b5)  
+![8](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/1a36f4cc-2ada-4df3-a6c4-ad6c4fe69abb)  
+![9](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/27397454-b3f2-4c5a-a1bc-2f9514fff1f1)  
+![10](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/b70a9624-0551-427b-a0b9-f3d5080b66fd)  
+  
+  
+colorization이 잘된 이미지와 잘 안된 이미지 각각 10개씩을 살펴본 결과 잘된 이미지는 전체적으로 검은색, 회색이 많이 들어간 느낌이고
+colorization이 잘되지 않은 이미지들을 살펴본 결과 주로 갈색, 노란색이 많이 들어간 느낌이 들었습니다.  
+  
+그래서 저희는 추가적으로 위에서 선정한 이미지들의 평균 RGB값을 구해보았습니다.  
+  
+먼저 잘 된 이미지들의 평균 RGB값입니다.  
+
 
 
 
