@@ -79,7 +79,7 @@ inference폴더로 이동하면 변환된 이미지 inference_output.jpg를 볼 
 ![output이미지](https://github.com/chanubc/opensw23-KLKB/assets/127182406/05a98fc3-e1de-4ab6-8dec-45b618f1b831)  
   
 ## Analysis  
-결과 분석 설명 전, 원본 Repository에는 주어진 모델이 존재하지 않아 직접 모델을 학습시켜서 이 Repository에 추가시켰고,  
+결과 분석 설명 전, 원본 Repository에는 모델이 주어지지 않아 직접 모델을 학습시켜 이 Repository에 추가시켰고,  
 아래의 결과 분석은 해당 모델이 어떤 이미지들을 잘 colorization시키는지에 대하여 분석한 내용입니다.
 
 ### <분석방법>
