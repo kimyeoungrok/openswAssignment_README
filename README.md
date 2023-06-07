@@ -113,6 +113,17 @@ inference폴더로 이동하면 변환된 이미지 inference_output.jpg를 볼 
 먼저 RGB거리가 짧은 이미지10개 즉 colorization이 다른 이미지에 비해 잘된 이미지들을 선정해보았습니다.
   
 ![1](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/1ed59dbc-f2f7-43f0-94a7-64d9265e8401)  
+![2](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/bc2a977c-0dae-48fc-a095-8b555b5ad184)  
+![3](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/6f8fa4c2-78bc-4333-ac03-291bf519cad2)  
+![4](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/46f42178-8eba-49c6-878e-51e13cd286c9)  
+![5](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/23f86a12-96d5-48f3-9c4b-e1a371f1cee8)  
+![6](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/530592c6-10aa-4f05-b665-e829af046032)  
+![7](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/9efc87ba-d729-404d-87f2-bd496ea639be)  
+![8](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/f793d2c3-4c7c-41ce-9369-61b7b9548aa4)  
+![9](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/d080d55b-506c-4620-bb86-a2d3e5acf8a1)  
+![10](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/27c55d78-c1c5-47d2-9757-593a6b7b127f)  
+  
+이번에는 RGB거리가 긴 이미지 10개 즉 colorization이 다른 이미지에 비해 잘 안된 이미지들을 선정해보았습니다.
 
 
 
