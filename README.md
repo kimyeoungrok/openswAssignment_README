@@ -77,3 +77,18 @@ inference_script.py --model_path models/saved_model.pth --image_path inference/[
 inference폴더로 이동하면 변환된 이미지 inference_output.jpg를 볼 수 있다.
 
 ![output이미지](https://github.com/chanubc/opensw23-KLKB/assets/127182406/05a98fc3-e1de-4ab6-8dec-45b618f1b831)  
+  
+## Analysis  
+위 모델이 어떤 이미지들을 잘 colorization시키는지 분석해 보았다.
+
+<분석방법>
+1. 크기가 256*256인 원본 이미지를 준비한다.  
+2. 원본 이미지를 colorization시킨다.  
+3. colorization시킨 이미지와 원본 이미지의 각 픽셀간 RGB거리를 구한다.  
+4. 그렇게 구한 RGB거리들을 모두 더해준다.  
+5. 결과값을 이미지 카테고리별로 묶어서 서로 평균을 내어 이미지 카테고리별로 어떤 차이가 있는지 확인한다.  
+  
+분석방법이 이해가 잘 안되는 분도 있을 수 있어서 쉽게 예를 들어 보겠습니다.  
+만약 4픽셀짜리 원본이미지와 그 이미지를 Colorization시킨 이미지가 있을 때 이 이미지들의 RGB거리 값은 다음과 같이 구합니다.  
+
+
