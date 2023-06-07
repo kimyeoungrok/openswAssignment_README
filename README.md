@@ -107,6 +107,12 @@ inference폴더로 이동하면 변환된 이미지 inference_output.jpg를 볼 
 ![카테고리별 평균 거리(그래프)](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/4ea4e25b-eaf4-4bff-b1c8-db7e698808bb)  
   
 분석 결과 위 모델은 건물이미지를 다른 이미지보다 colorization을 잘 시키는데 반해, 인물이미지는 다른 이미지들보다 colorization을 잘 못시키고 있음을 알 수 있습니다.  
+  
+이번에는 분석한 카테고리별 이미지들을 다 합쳐서 RGB거리가 긴 이미지 10개, RGB거리가 짧은 이미지 10개를 뽑아보겠습니다.  
+  
+먼저 RGB거리가 짧은 이미지10개 즉 colorization이 다른 이미지에 비해 잘된 이미지들을 선정해보았습니다.
+
+
 
 
 
