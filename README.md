@@ -111,8 +111,8 @@ inference폴더로 이동하면 변환된 이미지 inference_output.jpg를 볼 
 이번에는 분석한 카테고리별 이미지들을 다 합쳐서 RGB거리가 긴 이미지 10개, RGB거리가 짧은 이미지 10개를 뽑아보겠습니다.  
   
 먼저 RGB거리가 짧은 이미지10개 즉 colorization이 다른 이미지에 비해 잘된 이미지들을 선정해보았습니다.
-
-
+  
+![image](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/3d633952-afc7-4f81-ab5c-64621c82a7a6)  
 
 
 
