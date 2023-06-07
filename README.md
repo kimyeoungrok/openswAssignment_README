@@ -1,27 +1,27 @@
 ## Installation
 실행 조건 : pc에 NVIDIA기종의 그래픽카드가 설치되어있어야 한다.  
-<오픈 소스 repo 설치 및 실행 방법>  
+### <오픈 소스 repo 설치 및 실행 방법>  
 되도록이면 가상환경을 만들어 거기에 clone하는 것을 추천한다.  
-<가상환경 구축방법>
+#### <가상환경 구축방법>
 ![가상환경생성](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/20e937b6-f2d4-4a6d-9df1-5458c354219f)  
 cmd창을 연뒤에 가상환경을 생성하고 싶은 파일 위치로 이동해서 다음과 같은 명령어를 입력해준다.  
 virtualenv opensw   
 (opensw는 가상환경이름이다. 필요하다만 다른 이름을 지정해서 사용해도 무관하다.)  
 그런 뒤에 opensw\Scripts\activate 명령어를 입력해주어서 가상환경을 실행해준다.  
 
-<개발환경 구축>  
+### <개발환경 구축>  
 위 레포지토리를 실행하려면 cuda, torch, torchvision등 여러 모듈들의 설치가 필요하다.  
-<cuda설치>  
+#### <cuda설치>  
 shift + ctrl + esc 버튼을 눌러 작업 관리자를 실행한 후 성능 탭에 접속  
 ![image](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/ff93a7e6-182e-4670-b55e-91c0e2853d70)  
 GPU메뉴에 접근하여 내 pc가 어떤 그래픽 카드를 쓰고 있는지 확인  
 (필자는 NVIDIA GeForce GTX 1060을 쓰고 있음을 알 수 있다.)  
-<NVIDIA Driver 사이트 접속>  
+#### <NVIDIA Driver 사이트 접속>  
 ![image](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/c5530677-0496-4e66-8e5a-94799e1c0afd)  
 ![image](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/6fa65bcf-eff9-4342-83ee-63a14331db3f)  
 아까 작업관리자에서 확인했던 그래픽 카드 정보를 바탕으로 해당 product Series와 Product를 선택한 뒤에 Search를 누르고 Driver를 다운/설치를 한다.  
   
-<적절한 CUDA버전 확인>  
+#### <적절한 CUDA버전 확인>  
 cmd창을 열어서  
 cd C:\Program Files\NVIDIA Corporation\NVSMI 명령어를 실행한 뒤에  
 nvidia-smi.exe 명령어 실행  
@@ -30,7 +30,7 @@ nvidia-smi.exe 명령어 실행
 (필자의 경우엔 10.2라고 나온다.)  
 위 버전을 잘 기억해 두자  
   
-<CUDA toolkit설치>  
+#### <CUDA toolkit설치>  
   
 https://developer.nvidia.com/cuda-toolkit-archive  
 다음 사이트에 접속하여 표에서 얻은 CUDA Version과 같은 것을 다운 받는다,  
@@ -38,7 +38,7 @@ https://developer.nvidia.com/cuda-toolkit-archive
 
 이제 다시 cmd창을 활용하여 아까 생성했던 가상환경을 돌아가준다.  
   
-<라이브러리 설치>  
+#### <라이브러리 설치>  
 https://pytorch.org/get-started/previous-versions/  
 위 사이트를 참고 하여 본인 CUDA버전과 맞는 pytorch, torchvision, torchaudio 라이브러리를 설치한다.  
 ![파이토치 설치](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/a7f5dcc0-2a4a-41a6-be74-dd162809b322)  
@@ -61,7 +61,7 @@ CV2설치 명령어
 ![cv2](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/097fbe2c-9c5e-455f-8ba4-077b9f9729bb)  
 pip install opencv-python  
   
-<clone및 실행방법>  
+### <clone및 실행방법>  
 가상환경이 있는 위치에 다음 git명령어를 사용하여 clone해준다.  
 git clone https://github.com/chanubc/opensw23-KLKB  
 ![image01](https://github.com/chanubc/opensw23-KLKB/assets/106955456/43be217b-19f9-4025-ab66-776f5452950a)  
@@ -82,7 +82,7 @@ inference폴더로 이동하면 변환된 이미지 inference_output.jpg를 볼 
 결과 분석 설명 전, 원본 Repository에는 주어진 모델이 존재하지 않아 직접 모델을 학습시켜서 이 Repository에 추가시켰고,  
 아래의 결과 분석은 해당 모델이 어떤 이미지들을 잘 colorization시키는지에 대하여 분석한 내용입니다.
 
-<분석방법>
+### <분석방법>
 1. 크기가 256*256인 원본 이미지를 준비한다.  
 2. 원본 이미지를 흑백화 시킨다.
 3. 흑백화 시킨 이미지를 colorization시킨다.  
@@ -152,7 +152,7 @@ colorization이 잘되지 않은 이미지들을 살펴본 결과 주로 갈색,
 ![잘안된이미지표](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/93bac2d6-92f5-4268-b934-41008b3360b4)
 대다수의 이미지에 노란색, 갈색 계열의 색깔이 주로 들어가있음을 알 수 있습니다.  
   
-<최종분석 결론>  
+### <최종분석 결론>  
 분석 결과 저희가 사용한 모델은 건물 카테고리의 이미지와 이미지 주요 색깔이 검은색, 회색 계열을 띄는 이미지를 colorization을 시키는데 있어서  
 다른 이미지에 비해 높은 정확도를 나타냄을 알 수 있는 반면에,  
 인물 카테고리의 이미지와 이미지 주요 색깔이 노란색, 갈색 계열을 띄는 이미지를 colorization시키는데 있어서  
