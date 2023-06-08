@@ -68,7 +68,7 @@ git clone https://github.com/chanubc/opensw23-KLKB
 CNN-Image-Colorization-Pytorch 폴더에 들어간다.  
 inference 폴더에 들어가 사용하고 싶은 이미지를 넣는다.  
 cmd창을 켜서 가상환경을 실행시킨 뒤에 inference_script.py 가 있는 위치로 이동한 뒤에 다음 명령어를 실행한다.
-inference_script.py --model_path models/saved_model.pth --image_path inference/[이미지 이름]
+inference_script.py --model_path models/saved_model.pth --image_path inference/[이미지경로]
 ![cmd로 inference실행방법](https://github.com/chanubc/opensw23-KLKB/assets/127182406/7354c0ca-4625-4b63-b0c6-41447066366f)  
 
 
