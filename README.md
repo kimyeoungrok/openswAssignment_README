@@ -75,8 +75,8 @@ inference_script.py --model_path models/saved_model.pth --image_path inference/[
 
 inference폴더로 이동하면 변환된 이미지 inference_output.jpg를 볼 수 있다.
 
-![output이미지](https://github.com/chanubc/opensw23-KLKB/assets/127182406/05a98fc3-e1de-4ab6-8dec-45b618f1b831)  
-  
+![결과0608](https://github.com/kimyeoungrok/openswAssignment_README/assets/127182406/37fab65a-6866-4bc3-b972-a7437baf6ab9)  
+    
 ## Analysis  
 결과 분석 설명 전, 원본 Repository에는 모델이 주어지지 않아 직접 모델을 학습시켜 이 Repository에 추가시켰고,  
 아래의 결과 분석은 해당 모델이 어떤 이미지들을 잘 colorization시키는지에 대하여 분석한 내용입니다.
